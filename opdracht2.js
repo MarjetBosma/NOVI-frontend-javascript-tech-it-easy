@@ -97,3 +97,4 @@ tvsToSellContainer.innerHTML = `
   <h3>Aantal nog te verkopen</h3>
   <h2>${tvsToSell}</h2>
 `;
+
