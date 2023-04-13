@@ -98,3 +98,4 @@ tvsToSellContainer.innerHTML = `
   <h2>${tvsToSell}</h2>
 `;
 
+// Achteraf gezien had dit niet in twee stappen gehoeven, in de opdrachten hierna probeer ik steeds een script te maken dat ook direct de output op de pagina zet.
