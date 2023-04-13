@@ -3,29 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600&display=swap" rel="stylesheet">
     <script src="main.js" defer></script>
     <script src="opdracht1.js" defer></script>
     <script src="opdracht2.js" defer></script>
     <script src="opdracht3.js" defer></script>
     <script src="opdracht4.js" defer></script>
+    <script src="bonusopdracht.js" defer></script>
     <title>Tech It Easy Dashboard</title>
 </head>
 <body>
-<img src="assets/tech_it_easy.png" alt="Tech It Easy Logo">
+    <div class="page-container">
+        <div class="image-container">
+           <img id=tech-it-easy-logo" src="assets/tech_it_easy.png" alt="Tech It Easy Logo">
+        </div>
 
-<h1>Tech It Easy Dashboard</h1>
-    <span id="sold-tvs"></span>
-    <span id="original-stock"></span>
-    <span id="tvs-to-sell"></span>
+        <h1>Sales Dashboard</h1>
+        <section class="dashboard-container">
+            <span class="dashboard-tile" id="sold-tvs"></span>
+            <span class="dashboard-tile" id="original-stock"></span>
+            <span class="dashboard-tile" id="tvs-to-sell"></span>
+        </section>
+        <h2>Beschikbare merken</h2>
+        <section class="brands-list-container">
+        <ul id="list-of-brands"></ul>
+        </section>
 
-<h2>Beschikbare merken</h2>
-<ul id="list-of-brands">
-</ul>
+        <!--- <div id="single-tv"></div> -->
 
-<div id="single-tv"></div>
-
-<ul id="tv-list">
-</ul>
-
+        <h2>Beschikbare modellen</h2>
+            <section class="models-list-container"></section>
+            <ul id="tv-list">
+            </ul>
+    </div>
 </body>
 </html>

@@ -1,3 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: midnightblue;
+    display: flex;
+    justify-content: center;
+    background-color: aliceblue;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+.page-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    flex-basis: 1200px;
+}
+
+.image-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+.dashboard-container {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.dashboard-tile {
+    background-color: navajowhite;
+    border-radius: 10px;
+    margin: 30px;
+    padding: 20px;
+    text-align: center;
+    flex-basis: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.dashboard-tile-text {
+    padding-top: 20px;
+    padding-inline: 25px;
+    color: midnightblue;
+}
+
 #sold-tvs {
     color: green;
 }
@@ -8,4 +70,75 @@
 
 #tvs-to-sell {
     color: red;
+}
+
+.brands-list-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-block: 30px;
+}
+
+#list-of-brands {
+    list-style-type: none;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.models-list-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+
+#tv-list {
+    list-style-type: none;
+    text-align: center;
+    width: 800px;
+}
+
+#tv-list-item {
+    background-color: navajowhite;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+}
+
+#tv-name {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#tv-price {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#screen-size {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+@media screen and (max-width: 576px) {
+
+    h1 {
+        font-size: 30px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    .page-container {
+        flex-basis: 500px;
+    }
+
+    .image-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
 }

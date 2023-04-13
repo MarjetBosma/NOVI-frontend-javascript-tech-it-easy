@@ -27,8 +27,8 @@ console.log(soldTvs);
 const soldTvsContainer = document.getElementById('sold-tvs');
 
 soldTvsContainer.innerHTML = `
-  <h3>Aantal verkochte tv's</h3>
-  <h2>${soldTvs}</h2>
+  <h3 class="dashboard-tile-text">Aantal verkochte tv's</h3>
+  <h2 class="number-of-tvs">${soldTvs}</h2>
 `;
 
 
@@ -60,8 +60,8 @@ console.log(originalStock);
 const originalStockContainer = document.getElementById('original-stock');
 
 originalStockContainer.innerHTML = `
-  <h3>Aantal ingekochte tv's</h3>
-  <h2>${originalStock}</h2>
+  <h3 class="dashboard-tile-text">Aantal ingekochte tv's</h3>
+  <h2 class="number-of-tvs">${originalStock}</h2>
 `;
 
 
@@ -94,8 +94,8 @@ console.log(tvsToSell);
 const tvsToSellContainer = document.getElementById('tvs-to-sell');
 
 tvsToSellContainer.innerHTML = `
-  <h3>Aantal nog te verkopen</h3>
-  <h2>${tvsToSell}</h2>
+  <h3 class="dashboard-tile-text">Aantal nog te verkopen</h3>
+  <h2 class="number-of-tvs">${tvsToSell}</h2>
 `;
 
 // Achteraf gezien had dit niet in twee stappen gehoeven, in de opdrachten hierna probeer ik steeds een script te maken dat ook direct de output op de pagina zet.

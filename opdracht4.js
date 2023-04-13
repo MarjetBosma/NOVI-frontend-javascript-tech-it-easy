@@ -80,7 +80,7 @@ function screenSizeString(sizesArray) {
 // Variabele listObjects aangemaakt om alle items in op te slaan.
 // Mappen over de array met de map-methode.
 // De return hiervan is per item een <li> element met daarin de functies uit de voorgaande opdrachten.
-// Met de innerHTML methode de list objects in de ul zetten. Er kwamen toen komma's tussen de onderdelen te staan, dus ik heb er één string van gemaakt met de join-methode.
+// Met de innerHTML methode de list objects in de ul zetten. Er kwamen toen komma's tussen de onderdelen te staan, dus ik heb er één string van gemaakt met de join-methode, zoals ik eerder al deed bij opdracht 3a.
 // Aanroepen van de functie met de inventory array als parameter.
 
 function createTvList(tvArray) {
@@ -88,10 +88,10 @@ function createTvList(tvArray) {
 
     const listObjects = tvArray.map((listObject) => {
         return `
-        <li>
-            <h3>${generateTvName(listObject)}</h3>
-            <h4>${formatTvPrice(listObject.price)}</h4>
-            <p>${screenSizeString(listObject.availableSizes)}</p>
+        <li id="tv-list-item">
+            <h3 id="tv-name">${generateTvName(listObject)}</h3>
+            <h4 id="tv-price">${formatTvPrice(listObject.price)}</h4>
+            <p id="screen-size">${screenSizeString(listObject.availableSizes)}</p>
         </li>
         `
     });
