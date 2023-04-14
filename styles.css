@@ -100,14 +100,13 @@ h2 {
 #tv-list {
     list-style-type: none;
     text-align: center;
-
 }
 
 #tv-list-item {
     background-color: navajowhite;
     border-radius: 10px;
     padding: 20px;
-    margin: 20px;
+    margin: 40px;
 }
 
 #tv-name {
@@ -123,6 +122,26 @@ h2 {
 #screen-size {
     font-size: 16px;
     font-weight: 400;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+button {
+    background-color: cornflowerblue;
+    border-color: aliceblue;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 40px;
+    width: 160px;
+    font-size: 16px;
+    font-weight: 600;
+    color: midnightblue;
 }
 
 @media screen and (max-width: 576px) {
@@ -177,5 +196,19 @@ h2 {
     #screen-size {
         font-size: 12px;
         font-weight: 400;
+    }
+
+
+    .button-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        margin-top: 40px;
+    }
+
+    button {
+        margin: 0;
+        height: 80px;
     }
 }
