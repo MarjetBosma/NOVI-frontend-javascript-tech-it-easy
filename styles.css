@@ -32,8 +32,11 @@ h2 {
     display: flex;
     flex-direction: row;
     justify-content: center;
-}
 
+}
+ #tech-it-easy-logo {
+     width: 400px;
+ }
 
 .dashboard-container {
     display: flex;
@@ -97,7 +100,7 @@ h2 {
 #tv-list {
     list-style-type: none;
     text-align: center;
-    width: 800px;
+
 }
 
 #tv-list-item {
@@ -133,12 +136,46 @@ h2 {
     }
 
     .page-container {
-        flex-basis: 500px;
+        flex-basis: 400px
     }
 
     .image-container {
         display: flex;
         flex-direction: row;
         justify-content: center;
+    }
+
+    .dashboard-container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .dashboard-tile-text {
+        padding-top: 20px;
+        padding-inline: 35px;
+        color: midnightblue;
+    }
+
+    .number-of-tvs {
+        font-size: 40px;
+    }
+
+    #list-of-brands {
+        font-size: 16px;
+    }
+
+    #tv-name {
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    #tv-price {
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    #screen-size {
+        font-size: 12px;
+        font-weight: 400;
     }
 }
