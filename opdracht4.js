@@ -69,7 +69,7 @@ function screenSizeString(sizesArray) {
 //    <h4>${formatTvPrice(inventory[0].price)}</h4>
 //    <p>${screenSizeString(inventory[0].availableSizes)}</p>
 //`
-// Na het maken van opdracht 4e heb ik het bovenstaande uitgezet.
+// Na het maken van opdracht 4e heb ik het bovenstaande uitgezet (ook in de HTML).
 
 
 // Opdracht 4e: Maak een herbruikbare functie die de informatie van alle tv's weergeeft op de pagina. Gebruik hiervoor de map-methode in combinatie met de functies die je hebt gemaakt in opdracht 4a, 4b en 4c.
@@ -98,3 +98,5 @@ function createTvList(tvArray) {
     tvList.innerHTML = `${listObjects.join('')}`
 }
 createTvList(inventory);
+
+// Dit vond ik een lastige opdracht, maar ik heb hierbij veel gehad aan de uitleg aan een medestudent in de huiswerkklas.

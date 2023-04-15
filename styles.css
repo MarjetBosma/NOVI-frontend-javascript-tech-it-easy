@@ -1,3 +1,5 @@
+/* Ik vond het leuk om de eerder geleerde CSS weer opnieuw toe te passen, met name flexbox, en dat ging naar mijn idee ook best goed! Ik heb de opmaak niet te ingewikkeld gemaakt met allerlei toeters en bellen, want dat is niet de focus van deze opdracht. Ik vind het toch een mooie lay-out geworden: eenvoudig, maar rustig en doelmatig. Het is me ook nog gelukt om de pagina responsive te maken voor mobiele schermen, en dat was eveneens een goede oefening voor mijn CSS-skills. */
+
 * {
     margin: 0;
     padding: 0;
@@ -81,6 +83,10 @@ h2 {
     justify-content: center;
     align-items: center;
     padding-block: 30px;
+    background-color: lightblue;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 40px;
 }
 
 #list-of-brands {
@@ -133,7 +139,7 @@ h2 {
 }
 
 button {
-    background-color: cornflowerblue;
+    background-color: lightblue;
     border-color: aliceblue;
     border-radius: 10px;
     padding: 20px;
