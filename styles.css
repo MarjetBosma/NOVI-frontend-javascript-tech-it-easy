@@ -1,0 +1,220 @@
+/* Ik vond het leuk om de eerder geleerde CSS weer opnieuw toe te passen, met name flexbox, en dat ging naar mijn idee ook best goed! Ik heb de opmaak niet te ingewikkeld gemaakt met allerlei toeters en bellen, want dat is niet de focus van deze opdracht. Ik vind het toch een mooie lay-out geworden: eenvoudig, maar rustig en doelmatig. Het is me ook nog gelukt om de pagina responsive te maken voor mobiele schermen, en dat was eveneens een goede oefening voor mijn CSS-skills. */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: midnightblue;
+    display: flex;
+    justify-content: center;
+    background-color: aliceblue;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+.page-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    flex-basis: 1200px;
+}
+
+.image-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+ #tech-it-easy-logo {
+     width: 400px;
+ }
+
+.dashboard-container {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.dashboard-tile {
+    background-color: navajowhite;
+    border-radius: 10px;
+    margin: 30px;
+    padding: 20px;
+    text-align: center;
+    flex-basis: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.dashboard-tile-text {
+    padding-top: 20px;
+    padding-inline: 25px;
+    color: midnightblue;
+}
+
+#sold-tvs {
+    color: green;
+}
+
+#original-stock {
+    color: blue;
+}
+
+#tvs-to-sell {
+    color: red;
+}
+
+.brands-list-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-block: 30px;
+    background-color: lightblue;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 40px;
+}
+
+#list-of-brands {
+    list-style-type: none;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.models-list-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+
+#tv-list {
+    list-style-type: none;
+    text-align: center;
+}
+
+#tv-list-item {
+    background-color: navajowhite;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 40px;
+}
+
+#tv-name {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#tv-price {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#screen-size {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+button {
+    background-color: lightblue;
+    border-color: aliceblue;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 40px;
+    width: 160px;
+    font-size: 16px;
+    font-weight: 600;
+    color: midnightblue;
+}
+
+@media screen and (max-width: 576px) {
+
+    h1 {
+        font-size: 30px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    .page-container {
+        flex-basis: 400px
+    }
+
+    .image-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .dashboard-container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .dashboard-tile-text {
+        padding-top: 20px;
+        padding-inline: 35px;
+        color: midnightblue;
+    }
+
+    .number-of-tvs {
+        font-size: 40px;
+    }
+
+    #list-of-brands {
+        font-size: 16px;
+    }
+
+    #tv-name {
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    #tv-price {
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    #screen-size {
+        font-size: 12px;
+        font-weight: 400;
+    }
+
+
+    .button-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        margin-top: 40px;
+    }
+
+    button {
+        margin: 0;
+        height: 80px;
+    }
+}
