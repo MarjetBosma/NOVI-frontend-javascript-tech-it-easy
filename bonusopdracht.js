@@ -48,6 +48,6 @@ buttonFilterSoldOut.addEventListener('click', filterSoldOutTvs);
 
 // 2. Zorg er nu voor, in plaats van dat de uitkomsten in de console worden gelogd, dat de uitkomsten worden meegegeven aan jouw functie uit 4e zodat de resultaten daadwerkelijk op de pagina weergegeven worden!
 
-// Onder de console.logs hierboven (die de output in de console zetten), plaats ik nu de functie uit opdracht 4e (createTvList) en geef ik hieraan de output constanten mee als argument. Ik ben hiertoe gekomen door te proberen en experimenteren, en vind het nog moeilijk te vatten nog hoe dit nu  precies werkt, maar de knoppen doen hierdoor in ieder geval wat de bedoeling is, en geven de resultaten van de functies op de pagina zelf.
+// Onder de console.logs hierboven (die de output in de console zetten), plaats ik nu de functie uit opdracht 4e (createTvList) en geef ik hieraan de output constanten mee als argument.
 
 

@@ -98,5 +98,3 @@ function createTvList(tvArray) {
     tvList.innerHTML = `${listObjects.join('')}`
 }
 createTvList(inventory);
-
-// Dit vond ik een lastige opdracht, maar ik heb hierbij veel gehad aan de uitleg aan een medestudent in de huiswerkklas.
