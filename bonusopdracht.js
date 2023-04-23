@@ -15,7 +15,7 @@ function filterSoldOutTvs() {
 
 function filterAmbiLightTvs() {
     const hasAmbiLight = inventory.filter((tv) => {
-        return tv.options.ambiLight === true
+        return tv.options.ambiLight
     })
     console.log(hasAmbiLight);
     createTvList(hasAmbiLight);
