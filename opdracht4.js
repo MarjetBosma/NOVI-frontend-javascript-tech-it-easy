@@ -42,7 +42,7 @@ function screenSizeString(sizesArray) {
         const sizeInInches = sizesArray[i];
         const sizeInCm = sizesArray[i] * 2.54;
 
-        output = output + `${sizeInInches} inch (${sizeInCm} cm) `;
+        output += `${sizeInInches} inch (${sizeInCm} cm) `;
 
         if (i < sizesArray.length - 1) {        // Geldt voor alle items, behalve het laatste.
             output = `${output} | `
